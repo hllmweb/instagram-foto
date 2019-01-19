@@ -17,7 +17,7 @@
     
     var token = '223867703.c880546.88d74143bc2b4c9f9510e590a1389ced', 
         userid = 223867703,
-        num_photos = 10; 
+        num_photos = 4000; 
 
         $.ajax({
             url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent',
